@@ -1,0 +1,40 @@
+﻿# Arduino build artifacts
+build/
+*.hex
+*.bin
+*.elf
+*.map
+*.eep
+*.lst
+*.lss
+*.sym
+
+# Arduino IDE metadata
+*.ino.cpp
+*.ino.with_bootloader.*
+*.partitions.bin
+*.bootloader.bin
+*.merged.bin
+*.factory.bin
+*.uf2
+
+# PlatformIO, if used later
+.pio/
+.pioenvs/
+.piolibdeps/
+platformio.ini.*
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local secrets and notes
+secrets.h
+credentials.h
+*.local
+*.env
