@@ -45,42 +45,6 @@ Send SMS via GSM
 Upload data to ThingSpeak
 ```
 
-## Repository Structure
-
-```text
-industrial-safety-monitor/
-|-- README.md
-|-- config-example.md
-|-- LICENSE
-|-- .gitignore
-|-- docs/
-|   |-- system-architecture.md
-|   |-- flowchart.md
-|   `-- circuit-diagram.md
-|-- hardware/
-|   |-- components.md
-|   `-- wiring.md
-|-- firmware/
-|   |-- esp8266-gas-monitor/
-|   |   `-- esp8266_gas_monitor.ino
-|   `-- esp32cam-human-detection/
-|       `-- esp32cam_human_detection.ino
-|-- images/
-|-- results/
-`-- requirements.md
-```
-
-## Folder Description
-
-- `docs/` contains architecture, flowchart, and circuit documentation.
-- `hardware/` lists the components and wiring connections.
-- `firmware/esp8266-gas-monitor/` contains the ESP8266 gas monitoring, LCD, ThingSpeak, and GSM alert firmware.
-- `firmware/esp32cam-human-detection/` contains the ESP32-CAM human detection and web interface firmware.
-- `images/` is reserved for project photos, diagrams, and screenshots.
-- `results/` is reserved for testing output, ThingSpeak screenshots, LCD photos, and demonstration evidence.
-- `requirements.md` lists hardware, software, library, and cloud requirements.
-
-
 ## Configuration
 
 Before running this project, replace all placeholder values in the firmware with your own credentials. The public repository intentionally uses safe placeholder values instead of real passwords, API keys, tokens, phone numbers, or personal information.
